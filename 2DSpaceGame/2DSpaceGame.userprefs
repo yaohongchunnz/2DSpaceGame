@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Asteroid\AsteroidSpawn.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Spaceship\SpaceshipControls.cs" Line="41" Column="22" />
+      <File FileName="Assets\Scripts\Asteroid\AsteroidSpawn.cs" Line="33" Column="137" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
