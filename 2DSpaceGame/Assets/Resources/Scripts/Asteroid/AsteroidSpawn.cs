@@ -30,8 +30,8 @@ public class AsteroidSpawn : MonoBehaviour {
 	/* Spawns an asteroid at location given a y coordinate*/
 	private void spawnAsteroid(float y){
 		GameObject newAsteroid = Instantiate(Resources.Load ("Prefabs/GameObjects/Asteroids/Asteroid"),new Vector3(transform.position.x,y,0),transform.rotation) as GameObject;
-		newAsteroid.rigidbody2D.AddForce(-Vector2.right* Random.Range (1,1000)+GameObject.FindGameObjectWithTag("Player").rigidbody2D.velocity);
-		newAsteroid.rigidbody2D.AddTorque(Random.Range(1,100));
+		newAsteroid.rigidbody2D.AddForce(-Vector2.right* Random.Range (newAsteroid.rigidbody2D.mass*200,newAsteroid.rigidbody2D.mass*400));
+		newAsteroid.rigidbody2D.AddTorque(Random.Range (newAsteroid.rigidbody2D.mass,newAsteroid.rigidbody2D.mass*2));
 	
 	}
 }
